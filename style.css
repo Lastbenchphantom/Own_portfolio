@@ -9,6 +9,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+button{
+    height: 50px;
+    width: 100px;
+}
+
 /* universal styling ends here */
 
 
@@ -39,6 +44,7 @@ img{
 .about{
     text-align: center;
     height: 50vh;
+    height: 70vh;
 }
 
 #buttons{
@@ -54,7 +60,22 @@ img{
 
 .contactbuttons{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    height: 30vh;
+    margin-top: 50px;
 }
 
 /* contact section styling ends */
+
+
+/* skills section starts */
+.skills{
+    height: 50vh;
+}
+
+.buttonsskills{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+/* skills section ends */
