@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-size: 16px;
+}
+
+
+.navbar{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.name{
+    justify-self: flex-start;
+    font-size: 1.5rem;
+}
+
+.navpages{
+    justify-self: flex-end;
+}
+
+.navul a{
+    margin: 20px;
+}
+
