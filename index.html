@@ -1,38 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZakariaRevan</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Zakaria Revan - Competitive programmer, cybersecurity enthusiast, and full-stack web developer.">
+  <title>Zakaria Revan Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="herosection">
-        <div class="navbar">
-            <div class="logotext">
-                Zakaria Revan
-            </div>
-                <div class="navoptions">
-                    <ul>
-                        <a href="">Home</a>
-                        <a href="">About</a>
-                        <a href="">Skills</a>
-                        <a href="">Projects</a>
-                        <a href="">Contact</a>
-                    </ul>
-                </div>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Zakaria Revan</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <img src="./images/profile.jpg" alt="Zakaria Revan Profile" class="profile-image">
+        <div class="hero-text">
+          <p>Hello World!, I'M</p>
+          <h1>Zakaria Revan</h1>
+          <h4>aka, Lastbenchphantom</h4>
+          <h2>Building logic. Breaking limits.</h2>
+          <p>Passionate developer focused on competitive programming, cybersecurity, and full-stack web development.</p>
         </div>
-        <div class="herodetails">
-            <div class="profileimage"></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>Write your bio here. Share your journey, interests, and what drives you as a developer.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Competitive Programming</li>
+        <li>Cybersecurity</li>
+        <li>Full-Stack Web Development</li>
+        <li>Python, JavaScript, C++</li>
+        <li>React, Node.js, SQL</li>
+      </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Example Project Card -->
+        <div class="project-card">
+          <img src="./images/project1.png" alt="Project Screenshot">
+          <h3>Project Title</h3>
+          <p>Short project description goes here.</p>
+          <a href="#" target="_blank">View Project</a>
         </div>
-        <div class="herotext">
-                <p>Hello World!, I'M</p>
-                <h1>Zakaria Revan</h1>
-                <h4>aka, Lastbenchphantom</h4>
-                <h2>Building logic. Breaking limits.</h2>
-                <p>Passionate developer focused on competitive programming, cybersecurity, and full-stack web development</p>
-        </div>
-    </div>
-    
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>You can reach me at <a href="mailto:your.email@example.com">your.email@example.com</a> or via social links below.</p>
+      <div class="social-links">
+        <a href="#" target="_blank">GitHub</a>
+        <a href="#" target="_blank">LinkedIn</a>
+        <a href="#" target="_blank">Twitter</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Zakaria Revan. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
